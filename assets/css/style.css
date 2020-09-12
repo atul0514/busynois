@@ -1,0 +1,358 @@
+/* =======================================================
+Theme Name: busynoi Theme
+Theme URL: https://www.busynoi.com/
+Author: Bnext-it
+Author URL: https://bnextitsolutions.com
+=======================================================  */
+
+body {
+	font-family:normal normal 700 15px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-weight: normal;
+    font-style: normal;
+	color: #555555;
+	font-size:15px;
+}
+
+p{
+	font-size:13px;
+}
+h1{
+	font-size:22px;
+	font-weight:500;
+}
+h2{
+	font-size:20px;
+	font-weight:500;
+}
+h3{
+	font-size:16px;
+	font-weight:400;
+}
+
+	a{
+		color:#E68E94;
+	}
+	a:hover{
+		color: #555555;
+		text-decoration:none;
+	}
+
+ .logo img{
+	 width: 40%;
+ }
+/* ----login Starts----- */
+.btn-bsy{
+	background:#555555;
+	border: 2px solid #555555;
+	color:#fff
+}
+.btn-bsy:hover{
+	background:#fff;
+	border: 2px solid #555555;
+	color:#555555;
+}
+.btn-bsy:focus{
+  outline: none;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+}
+/* ----About Section Starts----- */
+	
+	.about i.fa
+	{
+	color: #ffffff;
+	background:#009490;
+	font-size: 24px;
+	margin: 20px 0;
+    border: 2px solid #009490;
+    padding: 12px 15px;
+    border-radius: 50%;	
+	}
+	
+	.about{
+		text-align:center;
+	}
+	@media only screen and (max-width: 600px) {
+		.about{
+			text-align:left;
+			}
+	}
+
+/* ----Service Section Starts----- */
+.serv a{
+	color: #555555;
+}
+.serv .single-service {
+  text-align: center;
+  padding: 25px 40px;
+  box-shadow: 0 5px 30px -5px #ccc;
+  padding-bottom:20px
+}
+.serv .single-service:hover{
+	background:#fff;
+	padding: 27px 42px;
+}
+
+.single-service h3 {
+	font-weight:900;
+}	
+	
+.single-service p{
+	height:110px;
+}
+.serv .single-service i.fa {
+	color: #555555;
+	font-size: 40px;
+	margin: 20px 0;
+    border: 2px solid #555555;
+    padding: 22px 25px;
+    border-radius: 50%;
+}
+/* ----info block Starts----- */
+.info p{
+     font-weight: normal;
+    font-style: normal;
+    color: #7f7f7f;
+    font-size: 15px;
+}
+/* ----form Starts----- */
+.subsform input{
+	border: none;
+    border-bottom: 2px solid #555555;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 600;
+	font-style: italic;
+}
+.subsform input:hover{
+	    border-bottom: 1px solid #555555;
+}
+
+.subsform input:focus{
+  outline: none;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+	
+}
+
+.subsform .form-check label{
+	font-size: 18px;
+    font-weight: 600;
+	color: #555555;
+}
+
+.subsform .btn-submit{
+	transition: color 0.4s ease 0s;
+    color: #000000;
+    display: inline-block;
+    margin: calc(-1 * 0px) 0px 0;
+    position: relative;
+    white-space: nowrap;
+	border:0;
+	font-size: 24px;
+}
+.subsform .btn-submit:hover{
+	border:0;
+	color:#44be91;
+}
+
+/* ----footer Socials----- */
+.footer-menu ul li {
+  display:inline;
+
+}
+
+.footer-menu ul li a {
+ 	color: #7f7f7f;
+ 	font-size: 16px;
+ 	padding: 5px 15px;
+
+}
+.footer-menu ul li a:hover{
+ 	color: #E68E94;
+
+}
+/* ----footer Socials----- */
+
+.social ul li {
+  display:inline;
+}
+.social ul li{
+	background: #000000;
+	border: 2px solid #000000;
+    padding: 4px 9px;
+    border-radius: 50%;
+	margin:auto;
+}
+.social ul li:hover{
+	   background: #fff;
+}
+.social ul li a{
+    color: #fff !important;
+
+}
+.social ul li a:hover{
+	background: #fff;
+    color:#000000 !important;
+
+}
+
+/* ---- Search popup----- */
+.searchModal .modal-content{
+    border-color: #757575;
+    border-radius: 20px;
+    border-width: 0px;
+    border-style: solid;
+    background: rgb(250, 250, 250);
+}
+.searchModal .modal-title{
+	color: #424242;
+    font-family: Oswald;
+    font-si ze: 36px;
+    font-weight: bold;
+}
+.searchModal .modal-body p{
+color: #757575;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    }
+/* ---- job box----- */
+.jbox{
+
+	box-shadow: rgba(42, 42, 42, 0.12) 2px 1px 6px;
+}
+
+.text-box
+	{
+		height: 78px;
+		margin: auto;
+	}
+.text-box a
+	{
+		color: #555555;
+
+	}
+
+.text-box a:hover
+	{
+		color: #E68E94;
+
+	}
+
+.text-box a h3
+	{
+		font-size: 17px/;
+		padding: 15px 30px;
+		font-weight: 500;
+	}
+
+.jbtn{
+	cursor: pointer;
+	box-shadow:3px 4px 5px 3px rgba(0,0,0,.2);
+}
+.jbtn p{
+	 font-size: 16px;
+}
+
+
+#image-gallery .modal
+{
+    background: #fff;
+}
+
+#image-gallery .modal-content{
+    background-color: transparent;
+    border: 0px;
+
+}
+
+#image-gallery #show-next-image{
+    position: fixed;
+    right: 20px;
+    top: 45%;
+    font-size:25px !important;
+    color:#fff;
+}
+#image-gallery #show-previous-image{
+    position: fixed;
+    left: 20px;
+    top: 45%;
+    font-size:25px !important;
+    color:#fff;
+}
+
+#image-gallery #show-previous-image:hover{
+    font-size:25px !important;
+    color:#fff;
+}
+
+#image-gallery #show-next-image:hover{
+    font-size:25px !important;
+    color:#fff;
+}
+
+.btnclose{
+    font-size: 3rem !important;
+    color: #ffffff !important;
+    font-weight: 300 !important;
+}
+
+/* ---- Blog Start----- */
+  .blog-block{
+    padding:10px;
+    box-shadow: 3px 4px 5px 3px rgba(0,0,0,.2);
+    border-radius: 5px;
+    min-height: 375px;
+    max-height: 375px;
+      }
+
+    .blog-block h5 a{
+    	color: #555555;
+	    font-size: 16px;
+	    font-weight: 500;
+    }
+
+     .blog-block h5 a:hover{
+     	    color: #E68E94;
+     }
+      
+    .blog-category h3{
+
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #555555;
+    color: #fff;
+    margin: 0;
+    }
+}
+
+.blog-category ul{
+    padding: 0 20px;
+    background: #555555;
+    margin: 0;
+
+}
+
+.blog-category ul li{
+    color: #444;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.blog-category ul li a{
+    color: #444;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    padding: 15px 0;
+}
+
+.blog-category ul li a:hover{
+    color: #E68E94;
+}
+/* ---- Blog End----- */
